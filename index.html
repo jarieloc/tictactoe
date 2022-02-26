@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="menu">
+      <div class="menutitle">
+        <h1>Tic-Tac-Toe</h1>
+      </div>
+      <button class="menubutton" type="button" name="button" onclick="gamestart()">Start Game</button>
+      <!-- <button class="menubutton" type="button" name="button">#</button>
+      <button class="menubutton" type="button" name="button">#</button>
+      <button class="menubutton" type="button" name="button">#</button> -->
+    </div>
+
+    <div id="game">
+      <div id="player">
+        x
+      </div>
+      <div class="tic-tac-toe-border">
+        <div class="row1-tic">
+          <button class="row1 col1 tic-button" id="tic-00" type="button" name="button" onclick="placing(0,0)">&nbsp;</button><!--
+        --><button class="row1 col2 tic-button" id="tic-01" type="button" name="button" onclick="placing(0,1)">&nbsp;</button><!--
+        --><button class="row1 col3 tic-button" id="tic-02" type="button" name="button" onclick="placing(0,2)">&nbsp;</button>
+        </div>
+        <div class="row2-tic">
+          <button class="row2 col1 tic-button" id="tic-10" type="button" name="button" onclick="placing(1,0)">&nbsp;</button><!--
+          --><button class="row2 col2 tic-button" id="tic-11" type="button" name="button" onclick="placing(1,1)">&nbsp;</button><!--
+          --><button class="row2 col3 tic-button" id="tic-12" type="button" name="button" onclick="placing(1,2)">&nbsp;</button>
+        </div>
+        <div class="row3-tic">
+          <button class="row3 col1 tic-button" id="tic-20" type="button" name="button" onclick="placing(2,0)">&nbsp;</button><!--
+          --><button class="row3 col2 tic-button" id="tic-21" type="button" name="button" onclick="placing(2,1)">&nbsp;</button><!--
+          --><button class="row3 col3 tic-button" id="tic-22" type="button" name="button" onclick="placing(2,2)">&nbsp;</button>
+        </div>
+      </div>
+      <div id="gamestate">
+      </div>
+      <div class="reset">
+        <button type="button" name="button" onclick="reset()">New Game</button>
+      </div>
+      <div class="gameexit">
+        <button type="button" name="button" onclick="returnToMenu()">Return to Menu</button>
+      </div>
+    </div>
+
+  </body>
+  <script type="text/javascript" src="javascript/tic-mechanics.js"></script>
+</html>

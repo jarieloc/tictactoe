@@ -1,0 +1,138 @@
+body{
+  background-color: rgb(16, 16, 16);
+  color: white;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#menu{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -100px;
+}
+
+.menutitle{
+  top: -20%;
+}
+
+.menutitle h1{
+  text-align: center;
+}
+
+.menubutton{
+  display: block;
+  width: 200px;
+  height: 75px;
+  outline: none;
+  border: none;
+  background-color: #303030;
+  color: white;
+}
+
+.menubutton:hover{
+  background-color: orange;
+}
+
+.menubutton:active{
+  background-color: white;
+  color: black;
+}
+
+#game{
+  display: none;
+}
+
+.tic-button{
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: 0;
+  background-color: #303030;
+  color: white;
+}
+
+.tic-button:hover{
+  background-color: orange;
+}
+
+.tic-button:active{
+  background-color: white;
+  color: black;
+}
+
+.tic-tac-toe-border{
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -75px;
+  text-align: center;
+}
+
+.reset{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 100px;
+  margin-left: -200px;
+}
+
+.reset button{
+  width: 200px;
+  height: 50px;
+  background-color: #303030;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.reset button:hover{
+  background-color: orange;
+}
+
+.gameexit{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 100px;
+  margin-left: 0px;
+
+}
+
+.gameexit button{
+  width: 200px;
+  height: 50px;
+  background-color: #303030;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.gameexit button:hover{
+  background-color: orange;
+}
+
+#player{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -100px;
+  text-align: center;
+  padding:0;
+  width: 200px;
+  font-size: 32px;
+}
+
+#gamestate{
+  position: absolute;
+  top: 52.5%;
+  left: 50%;
+  margin-left: -100px;
+  text-align: center;
+  padding:0;
+  width: 200px;
+  font-size: 32px;
+}
